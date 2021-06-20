@@ -18,7 +18,6 @@ if __name__=="__main__":
     train_model = args.train_model
     test_model = args.test_model
     no_calorie = args.no_calorie
-    print(args)
     if train_path and train_model:
         if training.train(train_path):
             print("Done with model training. It's time to test the model")
